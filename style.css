@@ -45,6 +45,20 @@ div#formulario{
     padding: 10px;
 }
 
+div#formulario > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+
+
+/* Configurações para maiores resoluções*/
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Telas tablet */
 
     section#login{
@@ -69,13 +83,23 @@ div#formulario{
     }
 
     div#image{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+    
 }
